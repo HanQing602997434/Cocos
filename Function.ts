@@ -1,0 +1,4 @@
+// º¯Êý
+function func() {
+        
+}
