@@ -19,7 +19,11 @@ abstract class Person{
 }
 
 // ½Ó¿Ú
-interface Person{
+interface Talk{
        name: string
        age: number
+}
+
+class Student implements Talk{
+        
 }
