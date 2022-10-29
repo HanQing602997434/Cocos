@@ -17,3 +17,9 @@ abstract class Person{
         name: string = "";
         abstract say();
 }
+
+// ½Ó¿Ú
+interface Person{
+       name: string
+       age: number
+}
