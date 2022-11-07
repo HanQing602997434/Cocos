@@ -27,3 +27,6 @@ interface Talk{
 class Student implements Talk{
         
 }
+
+export导出类的属性或函数
+import导入类的属性或函数
