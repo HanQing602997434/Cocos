@@ -1,8 +1,3 @@
-// 访问修饰符
-class Person{
-        name: string;
-
-        say() {
-        
-        }
-}
+// cc类装饰器
+@ccclass
+没有类装饰器的类无法作为组件添加到节点上
