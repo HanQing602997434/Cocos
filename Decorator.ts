@@ -9,3 +9,4 @@
 // 属性装饰器
 @property
 属性装饰器property可以被应用在cc类的属性或访问器上。
+如果不是基本类型则后面需要带(类型)，例如@property(cc.Label)
