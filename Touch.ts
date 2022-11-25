@@ -1,4 +1,4 @@
-// 触摸事件
+// 触摸事件，版本不同写法也不同，查看官网
 this.node.on(cc.Node.EventType.TOUCH_START, function(event){
       console.debug("触摸" + event.getLocation());
 });
