@@ -12,3 +12,9 @@ let rbody = this.getComponent(cc.RigidBody);
 // 力
 rbody.applyForce(cc.v2(1000, 0), cc.v2(0, 0), true);
 rbody.applyForceToCenter(cc.v2(5000, 0), true);
+
+// 得到碰撞点
+let points = contact.getWorldManifold().points;
+
+// 法线
+let normal = contact.getWorldManifold().normal;
